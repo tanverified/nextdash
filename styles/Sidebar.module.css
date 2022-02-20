@@ -1,0 +1,81 @@
+.container {
+  position: fixed;
+  top: 36.483890533447266px;
+  left: 0;
+}
+
+.profile {
+  width: 100%;
+  display: flex;
+}
+
+.profile .MdMenuOpen {
+  margin: auto 0;
+  font-size: 1.5rem;
+}
+.sideBarList {
+  margin: 0 0 5rem 0;
+}
+
+.sideBarList span {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  margin: 0 auto;
+  font-family: Inter;
+  color: #808191;
+  padding: 0.4rem 0.5rem 0.4rem 1.5rem;
+  cursor: pointer;
+}
+
+.sideBarList span:hover {
+    background-color: #030303;
+    color: #afb0b8;
+}
+
+.listIcon {
+  margin-right: 0.5rem;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  margin: 0.7rem 1rem ;
+}
+
+.btnGray {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #353945;
+  color: #fff;
+  border-radius: 7px;
+  line-height: 25px;
+  padding: 3px 8px;
+}
+
+.btnGray span {
+  margin-left: 0.3rem;
+}
+
+.btnCyan {
+  text-align: center;
+  background-color: #a3e3ff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #3772ff;
+  border-radius: 7px;
+  line-height: 25px;
+  padding: 3px 8px;
+  font-weight: 550;
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 1rem;
+}

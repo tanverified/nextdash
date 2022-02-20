@@ -1,0 +1,146 @@
+.aside {
+  padding: 1rem;
+  position: fixed;
+  top: 36.483890533447266px;
+  left: 930px;
+}
+
+.aside > div:nth-child(1) {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 0 0 1.5rem 0;
+}
+
+.dropdown {
+  background-color: #353945;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  width: 146px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown select {
+  background-color: #353945;
+  border: none;
+  color: #fff;
+  width: 92px;
+  margin-left: 5px;
+}
+
+.dropdown2 {
+  background-color: #000000;
+  color: #fff;
+  border: 1px solid blue;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  width: 146px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown2 select {
+  background-color: #000;
+  border: none;
+  color: #fff;
+  width: 92px;
+  margin-left: 5px;
+}
+
+.wallet {
+  color: #3772ff;
+  font-size: 20px;
+}
+
+.customLink p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.customLink p .icon {
+  margin-right: 0.5rem;
+}
+
+.link {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 48px;
+  letter-spacing: -1px;
+  color: #ffffff;
+}
+
+.link p {
+  margin: 1rem 0 0 0;
+}
+
+.link input {
+  background: #242731;
+  border-radius: 12px;
+  outline: none;
+  border: none;
+  padding: 10px;
+  width: 299px;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #808191;
+  margin-bottom: 2rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3772ff;
+  color: #fff;
+  border-radius: 10px;
+  font-family: Inter;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  padding: 3px 10px;
+  margin: 0 1rem 0 0;
+}
+
+.cancelBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 10px;
+  font-family: Inter;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  padding: 3px 10px;
+  border: 1px solid #414141 !important;
+  background-color: #000;
+}
+
+.cancelIcon {
+  margin-right: 5px;
+}
+
+.Rishare {
+  margin-right: 5px;
+}

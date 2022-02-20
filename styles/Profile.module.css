@@ -1,0 +1,20 @@
+.profile {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin: 1rem;
+}
+
+/* .profile span{
+    
+} */
+
+.profile p {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23.5618px;
+  line-height: 31px;
+  letter-spacing: -0.02em;
+  margin: 0 0 0 0.4rem;
+}

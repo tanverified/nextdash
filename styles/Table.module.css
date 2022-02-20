@@ -1,0 +1,104 @@
+.tabsGroup {
+  display: flex;
+  margin: 20px 0;
+}
+
+.tabTwoContent {
+  padding: 1rem;
+  font-size: 25px;
+  color: #fff;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 0.7fr 1fr 1fr 1fr;
+  color: #808191;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background: #191b20;
+  border-radius: 8px;
+  padding: 6px 1rem;
+  text-align: center;
+}
+
+.header li {
+  padding: 1px 5px;
+}
+
+/* .body{
+  
+
+} */
+
+.item {
+  background: rgba(36, 39, 49, 0.4);
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 0.7fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin: 5px 0;
+  line-height: 24px;
+  letter-spacing: 1px;
+  padding: 1px 1rem;
+  text-align: center;
+}
+
+.item > span {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.asset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.asset .chain {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #808191;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 2px 0 0 14px;
+}
+.chain > p {
+  margin: 0 5px 0 0;
+}
+.chain span {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #353945;
+  padding: 3px 4px;
+  border-radius: 7.15472px;
+  font-weight: 600;
+  font-size: 7.80515px;
+  line-height: 11px;
+}
+.chain span p {
+  margin: 0 0 0 3px;
+}
+
+.state {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #808191;
+}
+
+
